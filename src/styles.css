@@ -1,1 +1,195 @@
-/* You can add global styles to this file, and also import other style files */
+.section {
+  padding: 70px 0;
+  position: relative;
+  background: #FFFFFF;
+}
+.section .row + .category {
+  margin-top: 15px;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+small {
+  font-size: 60%; }
+
+a {
+  color: #378C3F; }
+  a:hover, a:focus {
+    color: #378C3F; }
+
+h1, .h1 {
+  font-size: 3.5em;
+  line-height: 1.15;
+  margin-bottom: 30px; }
+  h1 small, .h1 small {
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: .8; }
+
+h2, .h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px; }
+
+h3, .h3 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  line-height: 1.4em; }
+
+h4, .h4 {
+  font-size: 1.714em;
+  line-height: 1.45em;
+  margin-top: 30px;
+  margin-bottom: 15px; }
+  h4 + .category,
+  h4.title + .category, .h4 + .category,
+  .h4.title + .category {
+    margin-top: -10px; }
+
+h5, .h5 {
+  font-size: 1.57em;
+  line-height: 1.4em;
+  margin-bottom: 15px; }
+
+h6, .h6 {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+p {
+  line-height: 1.61em; }
+  .description p, p.description {
+    font-size: 1.14em; }
+
+.title {
+  font-weight: 700; }
+  .title.title-up {
+    text-transform: uppercase; }
+    .title.title-up a {
+      color: #2c2c2c;
+      text-decoration: none; }
+  .title + .category {
+    margin-top: -25px; }
+
+.description,
+.card-description,
+.footer-big p {
+  color: #9A9A9A;
+  font-weight: 300; }
+
+.category {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #9A9A9A; }
+
+.text-primary {
+  color: #378C3F !important; }
+
+.text-info {
+  color: #2CA8FF !important; }
+
+.text-success {
+  color: #18ce0f !important; }
+
+.text-warning {
+  color: #FFB236 !important; }
+
+.text-danger {
+  color: #FF3636 !important; }
+
+.text-black {
+  color: #444; }
+
+.blockquote {
+  border-left: none;
+  border: 1px solid #888;
+  padding: 20px;
+  font-size: 1.1em;
+  line-height: 1.8; }
+  .blockquote small {
+    color: #888;
+    font-size: 0.8571em;
+    text-transform: uppercase; }
+  .blockquote.blockquote-primary {
+    border-color: #378C3F;
+    color: #378C3F; }
+    .blockquote.blockquote-primary small {
+      color: #378C3F; }
+  .blockquote.blockquote-danger {
+    border-color: #FF3636;
+    color: #FF3636; }
+    .blockquote.blockquote-danger small {
+      color: #FF3636; }
+  .blockquote.blockquote-white {
+    border-color: rgba(255, 255, 255, 0.8);
+    color: #FFFFFF; }
+    .blockquote.blockquote-white small {
+      color: rgba(255, 255, 255, 0.8); }
+
+body {
+  color: #2c2c2c;
+  font-size: 14px;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; }
+
+.main {
+  position: relative;
+  background: #FFFFFF; }
+
+  .card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  }
+  .card .card-body {
+    min-height: 190px;
+  }
+  .card[data-background-color="orange"] {
+    background-color: #378C3F;
+  }
+  .card[data-background-color="red"] {
+    background-color: #FF3636;
+  }
+  .card[data-background-color="yellow"] {
+    background-color: #FFB236;
+  }
+  .card[data-background-color="blue"] {
+    background-color: #2CA8FF;
+  }
+  .card[data-background-color="green"] {
+    background-color: #18ce0f;
+  }
+
+  .bg-primary {
+    background-color: #378C3F !important; }
+
+    .btn-link {
+      border: 0;
+      padding: 0.5rem 0.7rem;
+      background-color: transparent; }
+    .btn.btn-link,
+
+
+
+
+
+
+
+.section {
+  padding-bottom: 0;
+}
+
+

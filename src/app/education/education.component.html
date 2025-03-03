@@ -1,0 +1,8 @@
+<div class="section">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">{{title}}</div>
+    @for (edu of educationList(); track edu) {
+      <app-education-card [education]="edu"></app-education-card>
+    }
+  </div>
+</div>

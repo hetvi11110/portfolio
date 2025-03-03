@@ -1,0 +1,21 @@
+<div class="section" id="about">
+  <div class="container">
+    <div class="card">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">{{titleLeft}}</div>
+            <p>{{ aboutText().firstPara }}</p>
+            <p>{{ aboutText().secondPara }}</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">{{titleRight}}</div>
+            <app-basic-info [basicInfo]="basicInfo()" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

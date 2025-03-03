@@ -1,0 +1,28 @@
+.progress-container {
+  margin-bottom: 20px;
+  font-size: 18px; }
+
+  .progress-container .progress {
+    height: 5px;
+    font-size: 18px; }
+
+
+    .progress-container {
+      position: relative; }
+      .progress-container + .progress-container,
+      .progress-container ~ .progress-container {
+        margin-top: 15px; }
+      .progress-container .progress-badge {
+        color: #888;
+        font-size: 0.8571em;
+       }
+      .progress-container .progress {
+
+        border-radius: 0;
+        box-shadow: none;
+        background: rgba(222, 222, 222, 0.8);
+        margin-top: 14px; }
+
+
+          .progress-container.progress-primary .progress-bar {
+            background: #378C3F; }

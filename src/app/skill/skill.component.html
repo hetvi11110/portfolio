@@ -1,0 +1,21 @@
+<div class="section" id="skill">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">{{title}}</div>
+    <div class="card">
+      <div class="card-body">
+        @for (skillPair of skillPairs(); track $index) {
+          <div class="row">
+            @for (skill of skillPair; track skill.name) {
+              <div class="col-md-6">
+                <app-skill-item
+                  [name]="skill.name"
+                  [percentage]="skill.percentage"
+                />
+              </div>
+            }
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<footer class="footer">
+  <div class="container text-center">
+    @for (link of socialLinks(); track link.url) {
+      <a class="btn btn-link" [href]="link.url" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" class="bi {{ link.iconClass }}" viewBox="0 0 16 16">
+          @for (path of link.svgPaths; track $index) {
+            <path [attr.d]="path"/>
+          }
+        </svg>
+      </a>
+    }
+  </div>
+  <div class="h4 title text-center">{{name()}}</div>
+  <div class="text-center text-muted">
+    <p>{{ copyright()}}  {{ '' | currentYear }}</p>
+  </div>
+</footer>
